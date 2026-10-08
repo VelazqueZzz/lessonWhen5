@@ -3,9 +3,7 @@
 import kotlin.random.Random
 
 fun main() {
-    // Выигрышные числа (случайные, 3 разных)
     val winning = (0..42).shuffled().take(3)
-    // Ввод игрока
     print("Введите первое число: ")
     val guess1 = readln().toInt()
     print("Введите второе число: ")
